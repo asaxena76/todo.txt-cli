@@ -17,7 +17,8 @@
             },
             "startTime": "Start Time",
             "status": "Status",
-            "endTime": "End Time"
+            "endTime": "End Time",
+            "dummy": "Dummy"
         }
     }
 }

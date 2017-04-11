@@ -14,6 +14,10 @@
         {
             "fieldName": "endTime",
             "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "dummy",
+            "fieldType": "String"
         }
     ],
     "changelogDate": "20170411001148",

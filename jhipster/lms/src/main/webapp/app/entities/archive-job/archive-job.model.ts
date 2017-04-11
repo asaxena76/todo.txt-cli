@@ -13,6 +13,7 @@ export class ArchiveJob {
         public startTime?: any,
         public status?: ArchiveJobStatus,
         public endTime?: any,
+        public dummy?: string,
     ) {
     }
 }

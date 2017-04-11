@@ -20,6 +20,7 @@
             <th jhiSortBy="startTime"><span jhiTranslate="lmsApp.archiveJob.startTime">Start Time</span> <span class="fa fa-sort"></span></th>
             <th jhiSortBy="status"><span jhiTranslate="lmsApp.archiveJob.status">Status</span> <span class="fa fa-sort"></span></th>
             <th jhiSortBy="endTime"><span jhiTranslate="lmsApp.archiveJob.endTime">End Time</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="dummy"><span jhiTranslate="lmsApp.archiveJob.dummy">Dummy</span> <span class="fa fa-sort"></span></th>
             <th></th>
             </tr>
             </thead>
@@ -29,6 +30,7 @@
                 <td>{{archiveJob.startTime | date:'medium'}}</td>
                 <td jhiTranslate="{{'lmsApp.ArchiveJobStatus.' + archiveJob.status}}">{{archiveJob.status}}</td>
                 <td>{{archiveJob.endTime | date:'medium'}}</td>
+                <td>{{archiveJob.dummy}}</td>
                 <td class="text-right">
                     <div class="btn-group flex-btn-group-container">
                         <button type="submit"

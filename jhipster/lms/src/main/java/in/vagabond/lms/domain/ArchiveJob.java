@@ -32,6 +32,9 @@ public class ArchiveJob implements Serializable {
     @Column(name = "end_time")
     private ZonedDateTime endTime;
 
+    @Column(name = "dummy")
+    private String dummy;
+
     public Long getId() {
         return id;
     }
@@ -79,6 +82,19 @@ public class ArchiveJob implements Serializable {
         this.endTime = endTime;
     }
 
+    public String getDummy() {
+        return dummy;
+    }
+
+    public ArchiveJob dummy(String dummy) {
+        this.dummy = dummy;
+        return this;
+    }
+
+    public void setDummy(String dummy) {
+        this.dummy = dummy;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -106,6 +122,7 @@ public class ArchiveJob implements Serializable {
             ", startTime='" + startTime + "'" +
             ", status='" + status + "'" +
             ", endTime='" + endTime + "'" +
+            ", dummy='" + dummy + "'" +
             '}';
     }
 }

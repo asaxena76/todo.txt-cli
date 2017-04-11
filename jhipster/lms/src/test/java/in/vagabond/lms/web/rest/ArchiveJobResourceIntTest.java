@@ -53,6 +53,9 @@ public class ArchiveJobResourceIntTest {
     private static final ZonedDateTime DEFAULT_END_TIME = ZonedDateTime.ofInstant(Instant.ofEpochMilli(0L), ZoneOffset.UTC);
     private static final ZonedDateTime UPDATED_END_TIME = ZonedDateTime.now(ZoneId.systemDefault()).withNano(0);
 
+    private static final String DEFAULT_DUMMY = "AAAAAAAAAA";
+    private static final String UPDATED_DUMMY = "BBBBBBBBBB";
+
     @Autowired
     private ArchiveJobRepository archiveJobRepository;
 
@@ -95,7 +98,8 @@ public class ArchiveJobResourceIntTest {
         ArchiveJob archiveJob = new ArchiveJob()
             .startTime(DEFAULT_START_TIME)
             .status(DEFAULT_STATUS)
-            .endTime(DEFAULT_END_TIME);
+            .endTime(DEFAULT_END_TIME)
+            .dummy(DEFAULT_DUMMY);
         return archiveJob;
     }
 
@@ -122,6 +126,7 @@ public class ArchiveJobResourceIntTest {
         assertThat(testArchiveJob.getStartTime()).isEqualTo(DEFAULT_START_TIME);
         assertThat(testArchiveJob.getStatus()).isEqualTo(DEFAULT_STATUS);
         assertThat(testArchiveJob.getEndTime()).isEqualTo(DEFAULT_END_TIME);
+        assertThat(testArchiveJob.getDummy()).isEqualTo(DEFAULT_DUMMY);
     }
 
     @Test
@@ -156,7 +161,8 @@ public class ArchiveJobResourceIntTest {
             .andExpect(jsonPath("$.[*].id").value(hasItem(archiveJob.getId().intValue())))
             .andExpect(jsonPath("$.[*].startTime").value(hasItem(sameInstant(DEFAULT_START_TIME))))
             .andExpect(jsonPath("$.[*].status").value(hasItem(DEFAULT_STATUS.toString())))
-            .andExpect(jsonPath("$.[*].endTime").value(hasItem(sameInstant(DEFAULT_END_TIME))));
+            .andExpect(jsonPath("$.[*].endTime").value(hasItem(sameInstant(DEFAULT_END_TIME))))
+            .andExpect(jsonPath("$.[*].dummy").value(hasItem(DEFAULT_DUMMY.toString())));
     }
 
     @Test
@@ -172,7 +178,8 @@ public class ArchiveJobResourceIntTest {
             .andExpect(jsonPath("$.id").value(archiveJob.getId().intValue()))
             .andExpect(jsonPath("$.startTime").value(sameInstant(DEFAULT_START_TIME)))
             .andExpect(jsonPath("$.status").value(DEFAULT_STATUS.toString()))
-            .andExpect(jsonPath("$.endTime").value(sameInstant(DEFAULT_END_TIME)));
+            .andExpect(jsonPath("$.endTime").value(sameInstant(DEFAULT_END_TIME)))
+            .andExpect(jsonPath("$.dummy").value(DEFAULT_DUMMY.toString()));
     }
 
     @Test
@@ -196,7 +203,8 @@ public class ArchiveJobResourceIntTest {
         updatedArchiveJob
             .startTime(UPDATED_START_TIME)
             .status(UPDATED_STATUS)
-            .endTime(UPDATED_END_TIME);
+            .endTime(UPDATED_END_TIME)
+            .dummy(UPDATED_DUMMY);
 
         restArchiveJobMockMvc.perform(put("/api/archive-jobs")
             .contentType(TestUtil.APPLICATION_JSON_UTF8)
@@ -210,6 +218,7 @@ public class ArchiveJobResourceIntTest {
         assertThat(testArchiveJob.getStartTime()).isEqualTo(UPDATED_START_TIME);
         assertThat(testArchiveJob.getStatus()).isEqualTo(UPDATED_STATUS);
         assertThat(testArchiveJob.getEndTime()).isEqualTo(UPDATED_END_TIME);
+        assertThat(testArchiveJob.getDummy()).isEqualTo(UPDATED_DUMMY);
     }
 
     @Test
