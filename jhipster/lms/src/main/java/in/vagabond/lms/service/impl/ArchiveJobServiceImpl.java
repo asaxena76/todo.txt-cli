@@ -78,7 +78,7 @@ public class ArchiveJobServiceImpl implements ArchiveJobService{
      *  @return the list of entities
      */
     @Override
-    @Transactional(readOnly = true)
+    @Transactional()
     public Page<ArchiveJob> findAll(Pageable pageable) {
         log.debug("Request to get all ArchiveJobs");
 
@@ -95,7 +95,7 @@ public class ArchiveJobServiceImpl implements ArchiveJobService{
      *  @return the entity
      */
     @Override
-    @Transactional(readOnly = true)
+    @Transactional()
     public ArchiveJob findOne(Long id) {
         updateStatus();
         log.debug("Request to get ArchiveJob : {}", id);

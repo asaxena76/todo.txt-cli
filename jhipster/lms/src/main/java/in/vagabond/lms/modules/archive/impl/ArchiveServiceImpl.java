@@ -52,7 +52,7 @@ public class ArchiveServiceImpl implements ArchiveService{
             running = false;
         }
         success = true;
-
+        log.info("Finished archive operation");
     }
 
     public boolean isRunning() {
