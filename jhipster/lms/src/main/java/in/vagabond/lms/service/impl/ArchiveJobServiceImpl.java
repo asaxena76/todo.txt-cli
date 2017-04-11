@@ -1,6 +1,5 @@
 package in.vagabond.lms.service.impl;
 
-import in.vagabond.lms.modules.archive.ArchiveService;
 import in.vagabond.lms.service.ArchiveJobService;
 import in.vagabond.lms.domain.ArchiveJob;
 import in.vagabond.lms.repository.ArchiveJobRepository;
@@ -20,18 +19,12 @@ import java.util.List;
 @Transactional
 public class ArchiveJobServiceImpl implements ArchiveJobService{
 
-
-    /** -- **/
-
     private final Logger log = LoggerFactory.getLogger(ArchiveJobServiceImpl.class);
-
+    
     private final ArchiveJobRepository archiveJobRepository;
 
-    private final ArchiveService archiveService;
-
-    public ArchiveJobServiceImpl(ArchiveJobRepository archiveJobRepository, ArchiveService archiveService) {
+    public ArchiveJobServiceImpl(ArchiveJobRepository archiveJobRepository) {
         this.archiveJobRepository = archiveJobRepository;
-        this.archiveService = archiveService;
     }
 
     /**
@@ -49,7 +42,7 @@ public class ArchiveJobServiceImpl implements ArchiveJobService{
 
     /**
      *  Get all the archiveJobs.
-     *
+     *  
      *  @param pageable the pagination information
      *  @return the list of entities
      */
