@@ -9,4 +9,5 @@ public interface ArchiveService {
 
     public void archive() throws IOException;
     public boolean isRunning();
+    public boolean isSuccess();
 }

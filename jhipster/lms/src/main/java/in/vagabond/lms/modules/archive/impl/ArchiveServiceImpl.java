@@ -25,6 +25,7 @@ public class ArchiveServiceImpl implements ArchiveService{
 
 
     private boolean running = false;
+    private boolean success = false;
 
 
     private Path startPath = Paths.get("/Archive/Inbox");
@@ -44,16 +45,24 @@ public class ArchiveServiceImpl implements ArchiveService{
         try {
             Files.walkFileTree(startPath, new RulesBasedFileVisitor<Path>());
         }catch (IOException ioe) {
+            success = false;
             throw ioe;
         } finally {
             running = false;
         }
+        success = true;
+
     }
 
     public boolean isRunning() {
 
         return running;
 
+    }
+
+    @Override
+    public boolean isSuccess() {
+        return success;
     }
 
 }
