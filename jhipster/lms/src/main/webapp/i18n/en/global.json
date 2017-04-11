@@ -8,6 +8,7 @@
             "entities": {
                 "main": "Entities",
                 "archiveJob": "Archive Job",
+                "localFile": "Local File",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
