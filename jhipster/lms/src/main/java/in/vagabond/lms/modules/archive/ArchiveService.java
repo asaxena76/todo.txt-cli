@@ -8,4 +8,5 @@ import java.io.IOException;
 public interface ArchiveService {
 
     public void archive() throws IOException;
+    public boolean isRunning();
 }
