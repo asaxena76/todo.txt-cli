@@ -20,8 +20,11 @@ import java.util.List;
 public class ArchiveJobServiceImpl implements ArchiveJobService{
 
     private final Logger log = LoggerFactory.getLogger(ArchiveJobServiceImpl.class);
-    
+
     private final ArchiveJobRepository archiveJobRepository;
+
+
+    // Don't want this overwrittern
 
     public ArchiveJobServiceImpl(ArchiveJobRepository archiveJobRepository) {
         this.archiveJobRepository = archiveJobRepository;
@@ -42,7 +45,7 @@ public class ArchiveJobServiceImpl implements ArchiveJobService{
 
     /**
      *  Get all the archiveJobs.
-     *  
+     *
      *  @param pageable the pagination information
      *  @return the list of entities
      */
