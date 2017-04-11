@@ -1,0 +1,23 @@
+{
+    "lmsApp": {
+        "archiveJob" : {
+            "home": {
+                "title": "Archive Jobs",
+                "createLabel": "Create a new Archive Job",
+                "createOrEditLabel": "Create or edit a Archive Job"
+            },
+            "created": "A new Archive Job is created with identifier {{ param }}",
+            "updated": "A Archive Job is updated with identifier {{ param }}",
+            "deleted": "A Archive Job is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Archive Job {{ id }}?"
+            },
+            "detail": {
+                "title": "Archive Job"
+            },
+            "startTime": "Start Time",
+            "status": "Status",
+            "endTime": "End Time"
+        }
+    }
+}

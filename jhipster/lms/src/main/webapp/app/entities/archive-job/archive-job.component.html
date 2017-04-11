@@ -1,0 +1,60 @@
+<div>
+    <h2>
+        <span jhiTranslate="lmsApp.archiveJob.home.title">Archive Jobs</span>
+        <button class="btn btn-primary float-right create-archive-job" [routerLink]="['/', { outlets: { popup: ['archive-job-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span  jhiTranslate="lmsApp.archiveJob.home.createLabel">
+            Create new Archive Job
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="archiveJobs">
+        <table class="table table-striped">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="reset.bind(this)">
+            <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="startTime"><span jhiTranslate="lmsApp.archiveJob.startTime">Start Time</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="status"><span jhiTranslate="lmsApp.archiveJob.status">Status</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="endTime"><span jhiTranslate="lmsApp.archiveJob.endTime">End Time</span> <span class="fa fa-sort"></span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody infinite-scroll (scrolled)="loadPage(page + 1)" [infiniteScrollDisabled]="page >= links['last']" [infiniteScrollDistance]="0">
+            <tr *ngFor="let archiveJob of archiveJobs ;trackBy: trackId">
+                <td><a [routerLink]="['../archive-job', archiveJob.id ]">{{archiveJob.id}}</a></td>
+                <td>{{archiveJob.startTime | date:'medium'}}</td>
+                <td jhiTranslate="{{'lmsApp.ArchiveJobStatus.' + archiveJob.status}}">{{archiveJob.status}}</td>
+                <td>{{archiveJob.endTime | date:'medium'}}</td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../archive-job', archiveJob.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="hidden-md-down" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'archive-job/'+ archiveJob.id + '/edit'} }]"
+                                replaceUrl="true"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="hidden-md-down" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'archive-job/'+ archiveJob.id + '/delete'} }]"
+                                replaceUrl="true"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="hidden-md-down" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

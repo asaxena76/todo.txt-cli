@@ -1,0 +1,10 @@
+{
+    "lmsApp": {
+        "FileType" : {
+            "null": "",
+            "jpg": "jpg",
+            "java": "java",
+            "unknown": "unknown"
+        }
+    }
+}

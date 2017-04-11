@@ -1,0 +1,48 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "localPath",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "FileType",
+            "fieldValues": "jpg,java,unknown"
+        },
+        {
+            "fieldName": "size",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dateAdded",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "rejected",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "uploaded",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "duplicate",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "hash",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "resourceUrl",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170410221153",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "local_file",
+    "pagination": "infinite-scroll"
+}

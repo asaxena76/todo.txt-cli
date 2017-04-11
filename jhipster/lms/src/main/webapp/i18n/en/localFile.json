@@ -1,0 +1,29 @@
+{
+    "lmsApp": {
+        "localFile" : {
+            "home": {
+                "title": "Local Files",
+                "createLabel": "Create a new Local File",
+                "createOrEditLabel": "Create or edit a Local File"
+            },
+            "created": "A new Local File is created with identifier {{ param }}",
+            "updated": "A Local File is updated with identifier {{ param }}",
+            "deleted": "A Local File is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Local File {{ id }}?"
+            },
+            "detail": {
+                "title": "Local File"
+            },
+            "localPath": "Local Path",
+            "type": "Type",
+            "size": "Size",
+            "dateAdded": "Date Added",
+            "rejected": "Rejected",
+            "uploaded": "Uploaded",
+            "duplicate": "Duplicate",
+            "hash": "Hash",
+            "resourceUrl": "Resource Url"
+        }
+    }
+}

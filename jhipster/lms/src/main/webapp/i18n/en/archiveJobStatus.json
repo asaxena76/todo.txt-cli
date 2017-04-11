@@ -1,0 +1,12 @@
+{
+    "lmsApp": {
+        "ArchiveJobStatus" : {
+            "null": "",
+            "Configured": "Configured",
+            "Started": "Started",
+            "Stopped": "Stopped",
+            "CompletedError": "CompletedError",
+            "CompletedSuccess": "CompletedSuccess"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "startTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "ArchiveJobStatus",
+            "fieldValues": "Configured,Started,Stopped,CompletedError,CompletedSuccess"
+        },
+        {
+            "fieldName": "endTime",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20170411001148",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "archive_job",
+    "pagination": "infinite-scroll"
+}
