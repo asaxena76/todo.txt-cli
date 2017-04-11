@@ -331,6 +331,14 @@
             <artifactId>spring-security-data</artifactId>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
+
+        <!-- Added dependencies -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- END -->
     </dependencies>
     <build>
         <defaultGoal>spring-boot:run</defaultGoal>
