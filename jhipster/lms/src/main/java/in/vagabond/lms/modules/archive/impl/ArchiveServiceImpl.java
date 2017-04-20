@@ -31,17 +31,11 @@ public class ArchiveServiceImpl implements ArchiveService{
 
     private Path startPath = Paths.get("/Archive/Inbox");
 
-    private LocalFileService localFileService;
-
-    public void ArchiveServiceImpl(LocalFileService localFileService) {
-
-
-    }
 
     @Async
     public void archive() throws IOException {
-        log.info("----");
-        log.info("Starting archive operation");
+        log.debug("----");
+        log.debug("Starting archive operation");
         running = true;
         try {
             Files.walkFileTree(startPath, new RulesBasedFileVisitor<Path>());

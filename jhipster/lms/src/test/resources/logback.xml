@@ -3,7 +3,7 @@
 <configuration scan="true">
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
 
-    <logger name="in.vagabond.lms" level="INFO"/>
+    <logger name="in.vagabond.lms" level="DEBUG"/>
 
     <logger name="io.github.jhipster" level="WARN"/>
 
@@ -34,6 +34,7 @@
     <logger name="liquibase" level="WARN"/>
     <logger name="LiquibaseSchemaResolver" level="INFO"/>
     <logger name="sun.rmi.transport" level="WARN"/>
+
 
     <root level="WARN">
         <appender-ref ref="CONSOLE"/>

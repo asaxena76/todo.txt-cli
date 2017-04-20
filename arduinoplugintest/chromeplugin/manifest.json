@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "DSC10 Robotics",
+  "version": "1.0",
+  "description": "Open Codebender in background",
+
+  "page_action": {
+    "default_icon" : { "128": "randomicon.png"  },
+    "default_title" : "Execute on robot"
+  },
+
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://edu.codebender.cc/*"],
+      "js": [  "cbpagescript.js"],
+      "all_frames" : true
+    },
+    {
+      "matches": ["*://localhost/index.html","*://*.vagabond.in/index.html"],
+      "js": ["dscrobpagescript.js"]
+    }
+  ],
+
+  "permissions": [
+    "clipboardWrite",
+    "clipboardRead",
+    "declarativeContent",
+    "tabs",
+    "http://localhost/","https://edu.codebender.cc/class/mbgas"]
+
+}

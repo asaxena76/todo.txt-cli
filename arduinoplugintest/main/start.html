@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robotics Test</title>
+
+    <script src="roboticsdriver.js"></script>
+
+</head>
+<body>
+
+<textarea rows="4" cols="50" id="input-text-area">
+    int led = 13;void setup(){pinMode(led, OUTPUT);}void loop(){digitalWrite(led, HIGH);delay(100);digitalWrite(led, LOW); delay(100);}
+</textarea>
+
+<br>
+<button type="button" onclick="runOnArduino()">Run Test on Arduino</button>
+
+</body>
+</html>

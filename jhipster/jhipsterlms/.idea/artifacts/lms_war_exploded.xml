@@ -12,7 +12,6 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.24" />
           <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-annotation:3.2.2" />
           <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-json:3.2.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.7" />
           <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-jvm:3.2.2" />
           <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-servlet:3.2.2" />
           <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-servlets:3.2.2" />
@@ -123,6 +122,8 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-data:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.13.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.14" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.7" />
+          <element id="library" level="project" name="Maven: com.googlecode.plist:dd-plist:1.19" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-undertow:1.5.2.RELEASE" />
           <element id="library" level="project" name="Maven: io.undertow:undertow-core:1.4.10.Final" />
           <element id="library" level="project" name="Maven: org.jboss.xnio:xnio-api:3.3.6.Final" />

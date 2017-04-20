@@ -14,26 +14,27 @@ import java.nio.file.attribute.BasicFileAttributes;
 @Slf4j
 public class RulesBasedFileVisitor<T> implements FileVisitor<T> {
     @Override
-    public FileVisitResult preVisitDirectory(Object dir, BasicFileAttributes attrs) throws IOException {
-        log.info("PreVisiting directory {} " , dir);
+    public FileVisitResult preVisitDirectory(T dir, BasicFileAttributes attrs) throws IOException {
+        log.debug("PreVisiting directory {} " , dir);
         return FileVisitResult.CONTINUE;
     }
 
     @Override
-    public FileVisitResult visitFile(Object file, BasicFileAttributes attrs) throws IOException {
-        log.info("Visiting file {} " , file);
+    public FileVisitResult visitFile(T file, BasicFileAttributes attrs) throws IOException {
+        log.debug("Visiting file {} " , file);
         return FileVisitResult.CONTINUE;
     }
 
     @Override
-    public FileVisitResult visitFileFailed(Object file, IOException exc) throws IOException {
-        log.info("visit file failed");
+    public FileVisitResult visitFileFailed(T file, IOException exc) throws IOException {
+        log.debug("visit file failed");
         throw exc;
     }
 
     @Override
-    public FileVisitResult postVisitDirectory(Object dir, IOException exc) throws IOException {
-        log.info("PostVisiting directory {} " , dir);
+    public FileVisitResult postVisitDirectory(T dir, IOException exc) throws IOException {
+        log.debug("PostVisiting directory {} " , dir);
+
         if (exc != null)
             throw exc;
         return FileVisitResult.CONTINUE;

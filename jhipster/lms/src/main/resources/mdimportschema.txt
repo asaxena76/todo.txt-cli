@@ -1,0 +1,2568 @@
+{
+    Attributes =     {
+        MessageGUIDs =         {
+            multivalued = 1;
+            name = MessageGUIDs;
+            nosearch = 1;
+            type = CFString;
+        };
+        "_kMDItemUserTags" =         {
+            multivalued = 1;
+            name = "_kMDItemUserTags";
+            nosearch = 1;
+            type = CFString;
+            uniqued = 1;
+        };
+        "com_apple_ats_font_invalid" =         {
+            multivalued = 0;
+            name = "com_apple_ats_font_invalid";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_apple_ats_name_family" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_family";
+            type = CFString;
+        };
+        "com_apple_ats_name_fond" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_fond";
+            type = CFString;
+        };
+        "com_apple_ats_name_full" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_full";
+            type = CFString;
+        };
+        "com_apple_ats_name_postscript" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_postscript";
+            type = CFString;
+        };
+        "com_apple_ats_name_style" =         {
+            multivalued = 1;
+            name = "com_apple_ats_name_style";
+            type = CFString;
+        };
+        "com_apple_ats_names" =         {
+            multivalued = 1;
+            name = "com_apple_ats_names";
+            type = CFString;
+        };
+        "com_apple_garageband_metadata_numberOfRITracks" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_numberOfRITracks";
+            type = CFNumber;
+        };
+        "com_apple_garageband_metadata_numberOfSITracks" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_numberOfSITracks";
+            type = CFNumber;
+        };
+        "com_apple_garageband_metadata_parentalAdvisory" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_parentalAdvisory";
+            type = CFString;
+        };
+        "com_apple_garageband_metadata_projectType" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_projectType";
+            type = CFString;
+        };
+        "com_apple_garageband_metadata_songVersionNumber" =         {
+            multivalued = 0;
+            name = "com_apple_garageband_metadata_songVersionNumber";
+            type = CFNumber;
+        };
+        "com_apple_iCal_Bookmark_SharedUID" =         {
+            multivalued = 0;
+            name = "com_apple_iCal_Bookmark_SharedUID";
+            nosearch = 1;
+            type = CFString;
+        };
+        "com_apple_mail_attachmentKinds" =         {
+            multivalued = 1;
+            name = "com_apple_mail_attachmentKinds";
+            type = CFString;
+        };
+        "com_apple_mail_attachmentNames" =         {
+            multivalued = 1;
+            name = "com_apple_mail_attachmentNames";
+            type = CFString;
+        };
+        "com_apple_mail_attachmentSpecificTypes" =         {
+            multivalued = 1;
+            name = "com_apple_mail_attachmentSpecificTypes";
+            type = CFString;
+        };
+        "com_apple_mail_attachmentTypes" =         {
+            multivalued = 1;
+            name = "com_apple_mail_attachmentTypes";
+            type = CFString;
+        };
+        "com_apple_mail_dateLastViewed" =         {
+            multivalued = 0;
+            name = "com_apple_mail_dateLastViewed";
+            type = CFDate;
+        };
+        "com_apple_mail_dateReceived" =         {
+            multivalued = 0;
+            name = "com_apple_mail_dateReceived";
+            type = CFDate;
+        };
+        "com_apple_mail_flagColor" =         {
+            multivalued = 0;
+            name = "com_apple_mail_flagColor";
+            type = CFNumber;
+        };
+        "com_apple_mail_flagged" =         {
+            multivalued = 0;
+            name = "com_apple_mail_flagged";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_apple_mail_messageID" =         {
+            multivalued = 0;
+            name = "com_apple_mail_messageID";
+            type = CFString;
+        };
+        "com_apple_mail_priority" =         {
+            multivalued = 0;
+            name = "com_apple_mail_priority";
+            type = CFNumber;
+        };
+        "com_apple_mail_read" =         {
+            multivalued = 0;
+            name = "com_apple_mail_read";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_apple_mail_repliedTo" =         {
+            multivalued = 0;
+            name = "com_apple_mail_repliedTo";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_lego_lxf_listofbricks" =         {
+            multivalued = 1;
+            name = "com_lego_lxf_listofbricks";
+            type = CFString;
+        };
+        "com_lego_lxf_numberofbricks" =         {
+            multivalued = 0;
+            name = "com_lego_lxf_numberofbricks";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_accountID" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_accountID";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_allDay" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_allDay";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_anniversary" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_anniversary";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_attachments" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_attachments";
+            type = CFString;
+        };
+        "com_microsoft_outlook_attendee_emails" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_attendee_emails";
+            type = CFString;
+        };
+        "com_microsoft_outlook_attendees" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_attendees";
+            type = CFString;
+        };
+        "com_microsoft_outlook_author_email_addresses" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_author_email_addresses";
+            type = CFString;
+        };
+        "com_microsoft_outlook_bccEmailAddresses" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_bccEmailAddresses";
+            type = CFString;
+        };
+        "com_microsoft_outlook_bccRecipients" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_bccRecipients";
+            type = CFString;
+        };
+        "com_microsoft_outlook_birthday" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_birthday";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_bloodType" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_bloodType";
+            type = CFString;
+        };
+        "com_microsoft_outlook_categories" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_categories";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_ccEmailAddresses" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_ccEmailAddresses";
+            type = CFString;
+        };
+        "com_microsoft_outlook_ccRecipients" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_ccRecipients";
+            type = CFString;
+        };
+        "com_microsoft_outlook_children" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_children";
+            type = CFString;
+        };
+        "com_microsoft_outlook_childrenFurigana" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_childrenFurigana";
+            type = CFString;
+        };
+        "com_microsoft_outlook_company" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_company";
+            type = CFString;
+        };
+        "com_microsoft_outlook_companyFurigana" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_companyFurigana";
+            type = CFString;
+        };
+        "com_microsoft_outlook_completed" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_completed";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_completedDate" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_completedDate";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_customDate1" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customDate1";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_customDate2" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customDate2";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_customFld1" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld1";
+            type = CFString;
+        };
+        "com_microsoft_outlook_customFld2" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld2";
+            type = CFString;
+        };
+        "com_microsoft_outlook_customFld3" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld3";
+            type = CFString;
+        };
+        "com_microsoft_outlook_customFld4" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld4";
+            type = CFString;
+        };
+        "com_microsoft_outlook_customFld5" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld5";
+            type = CFString;
+        };
+        "com_microsoft_outlook_customFld6" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld6";
+            type = CFString;
+        };
+        "com_microsoft_outlook_customFld7" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld7";
+            type = CFString;
+        };
+        "com_microsoft_outlook_customFld8" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_customFld8";
+            type = CFString;
+        };
+        "com_microsoft_outlook_department" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_department";
+            type = CFString;
+        };
+        "com_microsoft_outlook_endDate" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_endDate";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_firstName" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_firstName";
+            type = CFString;
+        };
+        "com_microsoft_outlook_firstNameFurigana" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_firstNameFurigana";
+            type = CFString;
+        };
+        "com_microsoft_outlook_flag" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_flag";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_flagged" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_flagged";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_folderID" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_folderID";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_forwarded" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_forwarded";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_freeBusy" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_freeBusy";
+            type = CFString;
+        };
+        "com_microsoft_outlook_free_busy_value" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_free_busy_value";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_furigana_full_name" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_furigana_full_name";
+            type = CFString;
+        };
+        "com_microsoft_outlook_hasDueDate" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_hasDueDate";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_hasStartDate" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_hasStartDate";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_has_attachments" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_has_attachments";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_has_reminder" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_has_reminder";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_has_text_content" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_has_text_content";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_homeCity" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_homeCity";
+            type = CFString;
+        };
+        "com_microsoft_outlook_homeCountry" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_homeCountry";
+            type = CFString;
+        };
+        "com_microsoft_outlook_homeState" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_homeState";
+            type = CFString;
+        };
+        "com_microsoft_outlook_homeStreet" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_homeStreet";
+            type = CFString;
+        };
+        "com_microsoft_outlook_homeURL" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_homeURL";
+            type = CFString;
+        };
+        "com_microsoft_outlook_homeZip" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_homeZip";
+            type = CFString;
+        };
+        "com_microsoft_outlook_interests" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_interests";
+            type = CFString;
+        };
+        "com_microsoft_outlook_isFromMailingList" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_isFromMailingList";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_isgroup" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_isgroup";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_japanese" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_japanese";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_jobTitle" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_jobTitle";
+            type = CFString;
+        };
+        "com_microsoft_outlook_junkLikelihood" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_junkLikelihood";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_lastName" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_lastName";
+            type = CFString;
+        };
+        "com_microsoft_outlook_lastNameFurigana" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_lastNameFurigana";
+            type = CFString;
+        };
+        "com_microsoft_outlook_messageReceived" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_messageReceived";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_messageSent" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_messageSent";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_newsAccountID" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_newsAccountID";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_nickname" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_nickname";
+            type = CFString;
+        };
+        "com_microsoft_outlook_notes" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_notes";
+            type = CFString;
+        };
+        "com_microsoft_outlook_parentRecordID" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_parentRecordID";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_primaryCategory" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_primaryCategory";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_priority" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_priority";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_projects" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_projects";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_recordID" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_recordID";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_recpient_email_addresses" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_recpient_email_addresses";
+            type = CFString;
+        };
+        "com_microsoft_outlook_recurrence" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_recurrence";
+            type = CFString;
+        };
+        "com_microsoft_outlook_recurrence_type" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_recurrence_type";
+            type = CFString;
+        };
+        "com_microsoft_outlook_recurring" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_recurring";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_redirected" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_redirected";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_repliedTo" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_repliedTo";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_size" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_size";
+            type = CFNumber;
+        };
+        "com_microsoft_outlook_spouse" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_spouse";
+            type = CFString;
+        };
+        "com_microsoft_outlook_spouseFurigana" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_spouseFurigana";
+            type = CFString;
+        };
+        "com_microsoft_outlook_startDate" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_startDate";
+            type = CFDate;
+        };
+        "com_microsoft_outlook_suffix" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_suffix";
+            type = CFString;
+        };
+        "com_microsoft_outlook_timeZone" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_timeZone";
+            type = CFString;
+        };
+        "com_microsoft_outlook_title" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_title";
+            type = CFString;
+        };
+        "com_microsoft_outlook_toEmailAddresses" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_toEmailAddresses";
+            type = CFString;
+        };
+        "com_microsoft_outlook_toRecipients" =         {
+            multivalued = 1;
+            name = "com_microsoft_outlook_toRecipients";
+            type = CFString;
+        };
+        "com_microsoft_outlook_unread" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_unread";
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        "com_microsoft_outlook_workCity" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_workCity";
+            type = CFString;
+        };
+        "com_microsoft_outlook_workCountry" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_workCountry";
+            type = CFString;
+        };
+        "com_microsoft_outlook_workState" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_workState";
+            type = CFString;
+        };
+        "com_microsoft_outlook_workStreet" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_workStreet";
+            type = CFString;
+        };
+        "com_microsoft_outlook_workURL" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_workURL";
+            type = CFString;
+        };
+        "com_microsoft_outlook_workZip" =         {
+            multivalued = 0;
+            name = "com_microsoft_outlook_workZip";
+            type = CFString;
+        };
+        kMDItemAcquisitionMake =         {
+            multivalued = 0;
+            name = kMDItemAcquisitionMake;
+            type = CFString;
+        };
+        kMDItemAcquisitionModel =         {
+            multivalued = 0;
+            name = kMDItemAcquisitionModel;
+            type = CFString;
+        };
+        kMDItemAlbum =         {
+            multivalued = 0;
+            name = kMDItemAlbum;
+            type = CFString;
+        };
+        kMDItemAlternateNames =         {
+            multivalued = 1;
+            name = kMDItemAlternateNames;
+            type = CFString;
+        };
+        kMDItemAltitude =         {
+            multivalued = 0;
+            name = kMDItemAltitude;
+            type = CFNumber;
+        };
+        kMDItemAperture =         {
+            multivalued = 0;
+            name = kMDItemAperture;
+            type = CFNumber;
+        };
+        kMDItemAppStoreCategory =         {
+            multivalued = 0;
+            name = kMDItemAppStoreCategory;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemAppStoreCategoryType =         {
+            multivalued = 0;
+            name = kMDItemAppStoreCategoryType;
+            nosearch = 1;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemAppleLoopDescriptors =         {
+            multivalued = 1;
+            name = kMDItemAppleLoopDescriptors;
+            type = CFString;
+        };
+        kMDItemAppleLoopsKeyFilterType =         {
+            multivalued = 0;
+            name = kMDItemAppleLoopsKeyFilterType;
+            type = CFString;
+        };
+        kMDItemAppleLoopsLoopMode =         {
+            multivalued = 0;
+            name = kMDItemAppleLoopsLoopMode;
+            type = CFString;
+        };
+        kMDItemAppleLoopsRootKey =         {
+            multivalued = 0;
+            name = kMDItemAppleLoopsRootKey;
+            type = CFString;
+        };
+        kMDItemApplicationCategories =         {
+            multivalued = 1;
+            name = kMDItemApplicationCategories;
+            type = CFString;
+        };
+        kMDItemAttributeChangeDate =         {
+            multivalued = 0;
+            name = kMDItemAttributeChangeDate;
+            nosearch = 1;
+            type = CFDate;
+        };
+        kMDItemAudiences =         {
+            multivalued = 1;
+            name = kMDItemAudiences;
+            type = CFString;
+        };
+        kMDItemAudioBitRate =         {
+            multivalued = 0;
+            name = kMDItemAudioBitRate;
+            type = CFNumber;
+        };
+        kMDItemAudioChannelCount =         {
+            multivalued = 0;
+            name = kMDItemAudioChannelCount;
+            type = CFNumber;
+        };
+        kMDItemAudioEncodingApplication =         {
+            multivalued = 0;
+            name = kMDItemAudioEncodingApplication;
+            type = CFString;
+        };
+        kMDItemAudioSampleRate =         {
+            multivalued = 0;
+            name = kMDItemAudioSampleRate;
+            type = CFNumber;
+        };
+        kMDItemAudioTrackNumber =         {
+            multivalued = 0;
+            name = kMDItemAudioTrackNumber;
+            type = CFNumber;
+        };
+        kMDItemAuthorAddresses =         {
+            multivalued = 1;
+            name = kMDItemAuthorAddresses;
+            type = CFString;
+        };
+        kMDItemAuthorContactIdentifiers =         {
+            multivalued = 1;
+            name = kMDItemAuthorContactIdentifiers;
+            nosearch = 1;
+            notokenize = true;
+            type = CFString;
+        };
+        kMDItemAuthorEmailAddresses =         {
+            multivalued = 1;
+            name = kMDItemAuthorEmailAddresses;
+            type = CFString;
+        };
+        kMDItemAuthors =         {
+            multivalued = 1;
+            name = kMDItemAuthors;
+            type = CFString;
+        };
+        kMDItemBitsPerSample =         {
+            multivalued = 0;
+            name = kMDItemBitsPerSample;
+            type = CFNumber;
+        };
+        kMDItemCFBundleIdentifier =         {
+            multivalued = 0;
+            name = kMDItemCFBundleIdentifier;
+            nosearch = 1;
+            type = CFString;
+        };
+        kMDItemCity =         {
+            multivalued = 0;
+            name = kMDItemCity;
+            type = CFString;
+        };
+        kMDItemCodecs =         {
+            multivalued = 1;
+            name = kMDItemCodecs;
+            type = CFString;
+        };
+        kMDItemColorSpace =         {
+            multivalued = 0;
+            name = kMDItemColorSpace;
+            type = CFString;
+        };
+        kMDItemComment =         {
+            multivalued = 0;
+            name = kMDItemComment;
+            type = CFString;
+        };
+        kMDItemComposer =         {
+            multivalued = 0;
+            name = kMDItemComposer;
+            type = CFString;
+        };
+        kMDItemContactKeywords =         {
+            multivalued = 1;
+            name = kMDItemContactKeywords;
+            type = CFString;
+        };
+        kMDItemContentCreationDate =         {
+            multivalued = 0;
+            name = kMDItemContentCreationDate;
+            type = CFDate;
+        };
+        kMDItemContentModificationDate =         {
+            multivalued = 0;
+            name = kMDItemContentModificationDate;
+            type = CFDate;
+        };
+        kMDItemContentType =         {
+            multivalued = 0;
+            name = kMDItemContentType;
+            nosearch = 1;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemContentTypeTree =         {
+            multivalued = 1;
+            name = kMDItemContentTypeTree;
+            nosearch = 1;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemContributors =         {
+            multivalued = 1;
+            name = kMDItemContributors;
+            type = CFString;
+        };
+        kMDItemCopyright =         {
+            multivalued = 0;
+            name = kMDItemCopyright;
+            type = CFString;
+        };
+        kMDItemCountry =         {
+            multivalued = 0;
+            name = kMDItemCountry;
+            type = CFString;
+        };
+        kMDItemCoverage =         {
+            multivalued = 0;
+            name = kMDItemCoverage;
+            type = CFString;
+        };
+        kMDItemCreator =         {
+            multivalued = 0;
+            name = kMDItemCreator;
+            type = CFString;
+        };
+        kMDItemDateAdded =         {
+            multivalued = 0;
+            name = kMDItemDateAdded;
+            type = CFDate;
+        };
+        kMDItemDeliveryType =         {
+            multivalued = 0;
+            name = kMDItemDeliveryType;
+            type = CFString;
+        };
+        kMDItemDescription =         {
+            multivalued = 0;
+            name = kMDItemDescription;
+            type = CFString;
+        };
+        kMDItemDestinationRecipients =         {
+            multivalued = 1;
+            name = kMDItemDestinationRecipients;
+            type = CFString;
+        };
+        kMDItemDirector =         {
+            multivalued = 0;
+            name = kMDItemDirector;
+            type = CFString;
+        };
+        kMDItemDisplayName =         {
+            multivalued = 0;
+            name = kMDItemDisplayName;
+            type = CFString;
+        };
+        kMDItemDocumentContainer =         {
+            multivalued = 0;
+            name = kMDItemDocumentContainer;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemDocumentLineage =         {
+            multivalued = 1;
+            name = kMDItemDocumentLineage;
+            nosearch = 1;
+            type = CFString;
+        };
+        kMDItemDueDate =         {
+            multivalued = 0;
+            name = kMDItemDueDate;
+            type = CFDate;
+        };
+        kMDItemDurationSeconds =         {
+            multivalued = 0;
+            name = kMDItemDurationSeconds;
+            type = CFNumber;
+        };
+        kMDItemEXIFGPSVersion =         {
+            multivalued = 0;
+            name = kMDItemEXIFGPSVersion;
+            nosearch = 1;
+            type = CFString;
+        };
+        kMDItemEXIFVersion =         {
+            multivalued = 0;
+            name = kMDItemEXIFVersion;
+            nosearch = 1;
+            type = CFString;
+        };
+        kMDItemEditors =         {
+            multivalued = 1;
+            name = kMDItemEditors;
+            type = CFString;
+        };
+        kMDItemEmailAddresses =         {
+            multivalued = 1;
+            name = kMDItemEmailAddresses;
+            type = CFString;
+        };
+        kMDItemEncodingApplications =         {
+            multivalued = 1;
+            name = kMDItemEncodingApplications;
+            type = CFString;
+        };
+        kMDItemExecutableArchitectures =         {
+            multivalued = 1;
+            name = kMDItemExecutableArchitectures;
+            nosearch = 1;
+            type = CFString;
+        };
+        kMDItemExecutablePlatform =         {
+            multivalued = 0;
+            name = kMDItemExecutablePlatform;
+            type = CFString;
+        };
+        kMDItemExposureMode =         {
+            multivalued = 0;
+            name = kMDItemExposureMode;
+            type = CFNumber;
+        };
+        kMDItemExposureProgram =         {
+            multivalued = 0;
+            name = kMDItemExposureProgram;
+            type = CFString;
+        };
+        kMDItemExposureTimeSeconds =         {
+            multivalued = 0;
+            name = kMDItemExposureTimeSeconds;
+            type = CFNumber;
+        };
+        kMDItemFNumber =         {
+            multivalued = 0;
+            name = kMDItemFNumber;
+            type = CFNumber;
+        };
+        kMDItemFSContentChangeDate =         {
+            multivalued = 0;
+            name = kMDItemFSContentChangeDate;
+            type = CFDate;
+        };
+        kMDItemFSCreationDate =         {
+            multivalued = 0;
+            name = kMDItemFSCreationDate;
+            type = CFDate;
+        };
+        kMDItemFSExists =         {
+            multivalued = 0;
+            name = kMDItemFSExists;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFSHasCustomIcon =         {
+            multivalued = 0;
+            name = kMDItemFSHasCustomIcon;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFSInvisible =         {
+            multivalued = 0;
+            name = kMDItemFSInvisible;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFSIsExtensionHidden =         {
+            multivalued = 0;
+            name = kMDItemFSIsExtensionHidden;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFSIsReadable =         {
+            multivalued = 0;
+            name = kMDItemFSIsReadable;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFSIsStationery =         {
+            multivalued = 0;
+            name = kMDItemFSIsStationery;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFSIsWriteable =         {
+            multivalued = 0;
+            name = kMDItemFSIsWriteable;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFSLabel =         {
+            multivalued = 0;
+            name = kMDItemFSLabel;
+            type = CFNumber;
+        };
+        kMDItemFSName =         {
+            multivalued = 0;
+            name = kMDItemFSName;
+            type = CFString;
+        };
+        kMDItemFSNodeCount =         {
+            multivalued = 0;
+            name = kMDItemFSNodeCount;
+            type = CFNumber;
+        };
+        kMDItemFSOwnerGroupID =         {
+            multivalued = 0;
+            name = kMDItemFSOwnerGroupID;
+            type = CFNumber;
+        };
+        kMDItemFSOwnerUserID =         {
+            multivalued = 0;
+            name = kMDItemFSOwnerUserID;
+            type = CFNumber;
+        };
+        kMDItemFSSize =         {
+            multivalued = 0;
+            name = kMDItemFSSize;
+            type = CFNumber;
+        };
+        kMDItemFinderComment =         {
+            multivalued = 0;
+            name = kMDItemFinderComment;
+            type = CFString;
+        };
+        kMDItemFinderOpenDate =         {
+            multivalued = 0;
+            name = kMDItemFinderOpenDate;
+            type = CFDate;
+        };
+        kMDItemFlashOnOff =         {
+            multivalued = 0;
+            name = kMDItemFlashOnOff;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemFocalLength =         {
+            multivalued = 0;
+            name = kMDItemFocalLength;
+            type = CFNumber;
+        };
+        kMDItemFonts =         {
+            multivalued = 1;
+            name = kMDItemFonts;
+            type = CFString;
+        };
+        kMDItemGenre =         {
+            multivalued = 0;
+            name = kMDItemGenre;
+            type = CFString;
+        };
+        kMDItemHasAlphaChannel =         {
+            multivalued = 0;
+            name = kMDItemHasAlphaChannel;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemHeadline =         {
+            multivalued = 0;
+            name = kMDItemHeadline;
+            type = CFString;
+        };
+        kMDItemISOSpeed =         {
+            multivalued = 0;
+            name = kMDItemISOSpeed;
+            type = CFNumber;
+        };
+        kMDItemIdentifier =         {
+            multivalued = 0;
+            name = kMDItemIdentifier;
+            type = CFString;
+        };
+        kMDItemInformation =         {
+            multivalued = 0;
+            name = kMDItemInformation;
+            type = CFString;
+        };
+        kMDItemInstantMessageAddresses =         {
+            multivalued = 1;
+            name = kMDItemInstantMessageAddresses;
+            type = CFString;
+        };
+        kMDItemInstructions =         {
+            multivalued = 0;
+            name = kMDItemInstructions;
+            type = CFString;
+        };
+        kMDItemIsApplicationManaged =         {
+            multivalued = 0;
+            name = kMDItemIsApplicationManaged;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemIsGeneralMIDISequence =         {
+            multivalued = 0;
+            name = kMDItemIsGeneralMIDISequence;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemIsLikelyJunk =         {
+            multivalued = 0;
+            name = kMDItemIsLikelyJunk;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemIsQuarantined =         {
+            multivalued = 0;
+            name = kMDItemIsQuarantined;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemIsScreenCapture =         {
+            multivalued = 0;
+            name = kMDItemIsScreenCapture;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemKeySignature =         {
+            multivalued = 0;
+            name = kMDItemKeySignature;
+            type = CFString;
+        };
+        kMDItemKeywords =         {
+            multivalued = 1;
+            name = kMDItemKeywords;
+            type = CFString;
+        };
+        kMDItemKind =         {
+            multivalued = 0;
+            name = kMDItemKind;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemLanguages =         {
+            multivalued = 1;
+            name = kMDItemLanguages;
+            nosearch = 1;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemLastUsedDate =         {
+            multivalued = 0;
+            name = kMDItemLastUsedDate;
+            type = CFDate;
+        };
+        kMDItemLatitude =         {
+            multivalued = 0;
+            name = kMDItemLatitude;
+            type = CFNumber;
+        };
+        kMDItemLayerNames =         {
+            multivalued = 1;
+            name = kMDItemLayerNames;
+            type = CFString;
+        };
+        kMDItemLogicalSize =         {
+            multivalued = 0;
+            name = kMDItemLogicalSize;
+            nosearch = 1;
+            type = CFNumber;
+        };
+        kMDItemLongitude =         {
+            multivalued = 0;
+            name = kMDItemLongitude;
+            type = CFNumber;
+        };
+        kMDItemLyricist =         {
+            multivalued = 0;
+            name = kMDItemLyricist;
+            type = CFString;
+        };
+        kMDItemMaxAperture =         {
+            multivalued = 0;
+            name = kMDItemMaxAperture;
+            type = CFNumber;
+        };
+        kMDItemMediaTypes =         {
+            multivalued = 1;
+            name = kMDItemMediaTypes;
+            type = CFString;
+        };
+        kMDItemMeteringMode =         {
+            multivalued = 0;
+            name = kMDItemMeteringMode;
+            type = CFString;
+        };
+        kMDItemMusicalGenre =         {
+            multivalued = 0;
+            name = kMDItemMusicalGenre;
+            type = CFString;
+        };
+        kMDItemMusicalInstrumentCategory =         {
+            multivalued = 0;
+            name = kMDItemMusicalInstrumentCategory;
+            type = CFString;
+        };
+        kMDItemMusicalInstrumentName =         {
+            multivalued = 0;
+            name = kMDItemMusicalInstrumentName;
+            type = CFString;
+        };
+        kMDItemNamedLocation =         {
+            multivalued = 0;
+            name = kMDItemNamedLocation;
+            type = CFString;
+        };
+        kMDItemNumberOfPages =         {
+            multivalued = 0;
+            name = kMDItemNumberOfPages;
+            type = CFNumber;
+        };
+        kMDItemOrganizations =         {
+            multivalued = 1;
+            name = kMDItemOrganizations;
+            type = CFString;
+        };
+        kMDItemOrientation =         {
+            multivalued = 0;
+            name = kMDItemOrientation;
+            type = CFNumber;
+        };
+        kMDItemOriginApplicationIdentifier =         {
+            multivalued = 0;
+            name = kMDItemOriginApplicationIdentifier;
+            nosearch = 1;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemOriginMessageIDkMDItemOriginMessageID =         {
+            multivalued = 0;
+            name = kMDItemOriginMessageIDkMDItemOriginMessageID;
+            type = CFString;
+        };
+        kMDItemOriginSenderDisplayName =         {
+            multivalued = 0;
+            name = kMDItemOriginSenderDisplayName;
+            type = CFString;
+        };
+        kMDItemOriginSenderHandle =         {
+            multivalued = 0;
+            name = kMDItemOriginSenderHandle;
+            nosearch = 1;
+            type = CFString;
+        };
+        kMDItemOriginSubject =         {
+            multivalued = 0;
+            name = kMDItemOriginSubject;
+            type = CFString;
+        };
+        kMDItemOriginalFormat =         {
+            multivalued = 0;
+            name = kMDItemOriginalFormat;
+            type = CFString;
+        };
+        kMDItemOriginalSource =         {
+            multivalued = 0;
+            name = kMDItemOriginalSource;
+            type = CFString;
+        };
+        kMDItemPageHeight =         {
+            multivalued = 0;
+            name = kMDItemPageHeight;
+            type = CFNumber;
+        };
+        kMDItemPageWidth =         {
+            multivalued = 0;
+            name = kMDItemPageWidth;
+            type = CFNumber;
+        };
+        kMDItemParticipants =         {
+            multivalued = 1;
+            name = kMDItemParticipants;
+            type = CFString;
+        };
+        kMDItemPath =         {
+            multivalued = 0;
+            name = kMDItemPath;
+            type = CFString;
+        };
+        kMDItemPerformers =         {
+            multivalued = 1;
+            name = kMDItemPerformers;
+            type = CFString;
+        };
+        kMDItemPhoneNumbers =         {
+            multivalued = 1;
+            name = kMDItemPhoneNumbers;
+            type = CFString;
+        };
+        kMDItemPhysicalSize =         {
+            multivalued = 0;
+            name = kMDItemPhysicalSize;
+            nosearch = 1;
+            type = CFNumber;
+        };
+        kMDItemPixelCount =         {
+            multivalued = 0;
+            name = kMDItemPixelCount;
+            type = CFNumber;
+        };
+        kMDItemPixelHeight =         {
+            multivalued = 0;
+            name = kMDItemPixelHeight;
+            type = CFNumber;
+        };
+        kMDItemPixelWidth =         {
+            multivalued = 0;
+            name = kMDItemPixelWidth;
+            type = CFNumber;
+        };
+        kMDItemProducer =         {
+            multivalued = 0;
+            name = kMDItemProducer;
+            type = CFString;
+        };
+        kMDItemProfileName =         {
+            multivalued = 0;
+            name = kMDItemProfileName;
+            type = CFString;
+        };
+        kMDItemProjects =         {
+            multivalued = 1;
+            name = kMDItemProjects;
+            type = CFString;
+        };
+        kMDItemPublishers =         {
+            multivalued = 1;
+            name = kMDItemPublishers;
+            type = CFString;
+        };
+        kMDItemPurchaseDate =         {
+            multivalued = 0;
+            name = kMDItemPurchaseDate;
+            type = CFDate;
+        };
+        kMDItemRecipientAddresses =         {
+            multivalued = 1;
+            name = kMDItemRecipientAddresses;
+            type = CFString;
+        };
+        kMDItemRecipientContactIdentifiers =         {
+            multivalued = 1;
+            name = kMDItemRecipientContactIdentifiers;
+            nosearch = 1;
+            notokenize = true;
+            type = CFString;
+        };
+        kMDItemRecipientEmailAddresses =         {
+            multivalued = 1;
+            name = kMDItemRecipientEmailAddresses;
+            type = CFString;
+        };
+        kMDItemRecipients =         {
+            multivalued = 1;
+            name = kMDItemRecipients;
+            type = CFString;
+        };
+        kMDItemRecordingDate =         {
+            multivalued = 0;
+            name = kMDItemRecordingDate;
+            type = CFDate;
+        };
+        kMDItemRecordingYear =         {
+            multivalued = 0;
+            name = kMDItemRecordingYear;
+            type = CFNumber;
+        };
+        kMDItemRedEyeOnOff =         {
+            multivalued = 0;
+            name = kMDItemRedEyeOnOff;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemResolutionHeightDPI =         {
+            multivalued = 0;
+            name = kMDItemResolutionHeightDPI;
+            type = CFNumber;
+        };
+        kMDItemResolutionWidthDPI =         {
+            multivalued = 0;
+            name = kMDItemResolutionWidthDPI;
+            type = CFNumber;
+        };
+        kMDItemRights =         {
+            multivalued = 0;
+            name = kMDItemRights;
+            type = CFString;
+        };
+        kMDItemScreenCaptureType =         {
+            multivalued = 0;
+            name = kMDItemScreenCaptureType;
+            nosearch = 1;
+            type = CFString;
+        };
+        kMDItemSecurityMethod =         {
+            multivalued = 0;
+            name = kMDItemSecurityMethod;
+            type = CFString;
+        };
+        kMDItemStarRating =         {
+            multivalued = 0;
+            name = kMDItemStarRating;
+            type = CFNumber;
+        };
+        kMDItemStateOrProvince =         {
+            multivalued = 0;
+            name = kMDItemStateOrProvince;
+            type = CFString;
+        };
+        kMDItemStreamable =         {
+            multivalued = 0;
+            name = kMDItemStreamable;
+            nosearch = 1;
+            type = CFBoolean;
+        };
+        kMDItemSubject =         {
+            multivalued = 0;
+            name = kMDItemSubject;
+            type = CFString;
+        };
+        kMDItemSupportFileType =         {
+            multivalued = 1;
+            name = kMDItemSupportFileType;
+            nosearch = 1;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemTempo =         {
+            multivalued = 0;
+            name = kMDItemTempo;
+            type = CFNumber;
+        };
+        kMDItemTextContent =         {
+            multivalued = 0;
+            name = kMDItemTextContent;
+            type = CFString;
+        };
+        kMDItemTheme =         {
+            multivalued = 0;
+            name = kMDItemTheme;
+            type = CFString;
+        };
+        kMDItemTimeSignature =         {
+            multivalued = 0;
+            name = kMDItemTimeSignature;
+            type = CFString;
+        };
+        kMDItemTitle =         {
+            multivalued = 0;
+            name = kMDItemTitle;
+            type = CFString;
+        };
+        kMDItemTotalBitRate =         {
+            multivalued = 0;
+            name = kMDItemTotalBitRate;
+            type = CFNumber;
+        };
+        kMDItemURL =         {
+            multivalued = 0;
+            name = kMDItemURL;
+            type = CFString;
+        };
+        kMDItemUsedDates =         {
+            multivalued = 1;
+            name = kMDItemUsedDates;
+            type = CFDate;
+        };
+        kMDItemUserTags =         {
+            multivalued = 1;
+            name = kMDItemUserTags;
+            type = CFString;
+            uniqued = 1;
+        };
+        kMDItemVersion =         {
+            multivalued = 0;
+            name = kMDItemVersion;
+            type = CFString;
+        };
+        kMDItemVideoBitRate =         {
+            multivalued = 0;
+            name = kMDItemVideoBitRate;
+            type = CFNumber;
+        };
+        kMDItemWhereFroms =         {
+            multivalued = 1;
+            name = kMDItemWhereFroms;
+            type = CFString;
+        };
+        kMDItemWhiteBalance =         {
+            multivalued = 0;
+            name = kMDItemWhiteBalance;
+            type = CFNumber;
+        };
+    };
+    Types =     {
+        "com.adobe.pdf" =         {
+            allattrs =             (
+                kMDItemVersion,
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemDescription,
+                kMDItemCreator,
+                kMDItemEncodingApplications,
+                kMDItemKeywords,
+                kMDItemNumberOfPages,
+                kMDItemPageWidth,
+                kMDItemPageHeight,
+                kMDItemSecurityMethod
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemDescription,
+                kMDItemVersion,
+                kMDItemNumberOfPages,
+                kMDItemPageWidth,
+                kMDItemPageHeight,
+                kMDItemSecurityMethod,
+                kMDItemCreator,
+                kMDItemEncodingApplications
+            );
+            name = "com.adobe.pdf";
+            readonlyattrs =             (
+                kMDItemVersion,
+                kMDItemCreator,
+                kMDItemEncodingApplications,
+                kMDItemNumberOfPages,
+                kMDItemPageWidth,
+                kMDItemPageHeight,
+                kMDItemSecurityMethod
+            );
+            relatedattrs =             (
+                kMDItemAuthors
+            );
+        };
+        "com.apple.addressbook.group" =         {
+            allattrs =             (
+                kMDItemTitle
+            );
+            displayattrs =             (
+                kMDItemTitle
+            );
+            name = "com.apple.addressbook.group";
+        };
+        "com.apple.addressbook.person" =         {
+            allattrs =             (
+                kMDItemCity,
+                kMDItemCountry,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses,
+                kMDItemPhoneNumbers,
+                kMDItemStateOrProvince,
+                kMDItemTitle
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses
+            );
+            name = "com.apple.addressbook.person";
+            relatedattrs =             (
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses
+            );
+        };
+        "com.apple.application" =         {
+            allattrs =             (
+                kMDItemCopyright,
+                kMDItemVersion
+            );
+            name = "com.apple.application";
+            previewattrs =             (
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemCopyright,
+                kMDItemVersion
+            );
+        };
+        "com.apple.bundle" =         {
+            allattrs =             (
+                kMDItemCFBundleIdentifier
+            );
+            name = "com.apple.bundle";
+            readonlyattrs =             (
+                kMDItemCFBundleIdentifier
+            );
+        };
+        "com.apple.garageband.project" =         {
+            allattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                "com_apple_garageband_metadata_songVersionNumber",
+                "com_apple_garageband_metadata_numberOfSITracks",
+                "com_apple_garageband_metadata_numberOfRITracks"
+            );
+            displayattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                kMDItemDurationSeconds,
+                kMDItemTempo,
+                kMDItemKeySignature,
+                kMDItemTimeSignature,
+                "com_apple_garageband_metadata_songVersionNumber"
+            );
+            name = "com.apple.garageband.project";
+        };
+        "com.apple.garageband.template.magic" =         {
+            allattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                "com_apple_garageband_metadata_songVersionNumber",
+                "com_apple_garageband_metadata_numberOfSITracks",
+                "com_apple_garageband_metadata_numberOfRITracks"
+            );
+            displayattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                kMDItemDurationSeconds,
+                kMDItemTempo,
+                kMDItemKeySignature,
+                kMDItemTimeSignature,
+                "com_apple_garageband_metadata_songVersionNumber"
+            );
+            name = "com.apple.garageband.template.magic";
+        };
+        "com.apple.garageband.template.magicmentor" =         {
+            allattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                "com_apple_garageband_metadata_songVersionNumber",
+                "com_apple_garageband_metadata_numberOfSITracks",
+                "com_apple_garageband_metadata_numberOfRITracks"
+            );
+            displayattrs =             (
+                "com_apple_garageband_metadata_projectType",
+                "com_apple_garageband_metadata_parentalAdvisory",
+                kMDItemDurationSeconds,
+                kMDItemTempo,
+                kMDItemKeySignature,
+                kMDItemTimeSignature,
+                "com_apple_garageband_metadata_songVersionNumber"
+            );
+            name = "com.apple.garageband.template.magicmentor";
+        };
+        "com.apple.ical.bookmark" =         {
+            allattrs =             (
+                kMDItemDisplayName,
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemComment,
+                kMDItemDueDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "com.apple.ical.bookmark";
+            relatedattrs =             (
+                kMDItemAuthors,
+                kMDItemDueDate
+            );
+        };
+        "com.apple.ical.bookmark.todo" =         {
+            allattrs =             (
+                kMDItemDisplayName,
+                kMDItemCoverage,
+                kMDItemTitle,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemComment,
+                kMDItemDueDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "com.apple.ical.bookmark.todo";
+            relatedattrs =             (
+                kMDItemAuthors,
+                kMDItemDueDate
+            );
+        };
+        "com.apple.ichat.transcript" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemContentCreationDate,
+                kMDItemDeliveryType,
+                kMDItemDurationSeconds,
+                kMDItemInstantMessageAddresses,
+                kMDItemCoverage
+            );
+            displayattrs =             (
+                kMDItemAuthors,
+                kMDItemCoverage,
+                kMDItemContentCreationDate,
+                kMDItemDeliveryType,
+                kMDItemDurationSeconds,
+                kMDItemInstantMessageAddresses
+            );
+            name = "com.apple.ichat.transcript";
+        };
+        "com.apple.keynote.key" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            name = "com.apple.keynote.key";
+        };
+        "com.apple.mail.emlx" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemContentCreationDate,
+                kMDItemAuthorEmailAddresses,
+                kMDItemRecipients,
+                kMDItemRecipientEmailAddresses
+            );
+            displayattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemAuthors,
+                kMDItemRecipients
+            );
+            name = "com.apple.mail.emlx";
+            readonlyattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemContentCreationDate,
+                kMDItemAuthorEmailAddresses,
+                kMDItemRecipients,
+                kMDItemRecipientEmailAddresses
+            );
+            relatedattrs =             (
+                kMDItemTitle
+            );
+        };
+        "com.apple.quartz-composer-composition" =         {
+            name = "com.apple.quartz-composer-composition";
+        };
+        "com.apple.rtfd" =         {
+            allattrs =             (
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            exporterAvailable = 1;
+            name = "com.apple.rtfd";
+            relatedattrs =             (
+                kMDItemOrganizations,
+                kMDItemAuthors
+            );
+        };
+        "com.apple.safari.bookmark" =         {
+            allattrs =             (
+                kMDItemURL
+            );
+            displayattrs =             (
+                kMDItemURL
+            );
+            name = "com.apple.safari.bookmark";
+            relatedattrs =             (
+                kMDItemURL
+            );
+        };
+        "com.apple.systempreference.prefpane" =         {
+            allattrs =             (
+                kMDItemDisplayName
+            );
+            name = "com.apple.systempreference.prefpane";
+        };
+        "com.apple.traditional-mac-plain-text" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment
+            );
+            name = "com.apple.traditional-mac-plain-text";
+        };
+        "com.apple.webarchive" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            name = "com.apple.webarchive";
+        };
+        "com.lego.lxf" =         {
+            allattrs =             (
+                kMDItemDescription,
+                kMDItemVersion,
+                kMDItemCreator,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                "com_lego_lxf_numberofbricks",
+                "com_lego_lxf_listofbricks"
+            );
+            displayattrs =             (
+                kMDItemDescription,
+                kMDItemVersion,
+                kMDItemCreator,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                "com_lego_lxf_numberofbricks",
+                "com_lego_lxf_listofbricks"
+            );
+            name = "com.lego.lxf";
+        };
+        "com.lego.lxfml" =         {
+            allattrs =             (
+                kMDItemDescription,
+                kMDItemVersion,
+                kMDItemCreator,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                "com_lego_lxf_numberofbricks",
+                "com_lego_lxf_listofbricks"
+            );
+            displayattrs =             (
+                kMDItemDescription,
+                kMDItemVersion,
+                kMDItemCreator,
+                kMDItemKeywords,
+                kMDItemAuthors,
+                "com_lego_lxf_numberofbricks",
+                "com_lego_lxf_listofbricks"
+            );
+            name = "com.lego.lxfml";
+        };
+        "com.microsoft.excel.xls" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            name = "com.microsoft.excel.xls";
+        };
+        "com.microsoft.outlook14.contact" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses,
+                kMDItemContentModificationDate,
+                "com_microsoft_outlook_recordID",
+                "com_microsoft_outlook_folderID",
+                "com_microsoft_outlook_accountID",
+                kMDItemCity,
+                kMDItemStateOrProvince,
+                kMDItemCountry,
+                "com_microsoft_outlook_flag",
+                "com_microsoft_outlook_nickname",
+                "com_microsoft_outlook_company",
+                "com_microsoft_outlook_department",
+                "com_microsoft_outlook_jobTitle",
+                "com_microsoft_outlook_homeURL",
+                "com_microsoft_outlook_workURL",
+                "com_microsoft_outlook_bloodType",
+                "com_microsoft_outlook_spouse",
+                "com_microsoft_outlook_customFld1",
+                "com_microsoft_outlook_customFld2",
+                "com_microsoft_outlook_customFld3",
+                "com_microsoft_outlook_customFld4",
+                "com_microsoft_outlook_customFld5",
+                "com_microsoft_outlook_customFld6",
+                "com_microsoft_outlook_customFld7",
+                "com_microsoft_outlook_customFld8",
+                "com_microsoft_outlook_homeStreet",
+                "com_microsoft_outlook_homeCity",
+                "com_microsoft_outlook_homeState",
+                "com_microsoft_outlook_homeZip",
+                "com_microsoft_outlook_homeCountry",
+                "com_microsoft_outlook_firstName",
+                "com_microsoft_outlook_lastName",
+                "com_microsoft_outlook_suffix",
+                "com_microsoft_outlook_title",
+                "com_microsoft_outlook_notes",
+                "com_microsoft_outlook_workStreet",
+                "com_microsoft_outlook_workCity",
+                "com_microsoft_outlook_workState",
+                "com_microsoft_outlook_workZip",
+                "com_microsoft_outlook_workCountry",
+                "com_microsoft_outlook_interests",
+                "com_microsoft_outlook_japanese",
+                "com_microsoft_outlook_birthday",
+                "com_microsoft_outlook_anniversary",
+                "com_microsoft_outlook_customDate1",
+                "com_microsoft_outlook_customDate2",
+                "com_microsoft_outlook_children",
+                "com_microsoft_outlook_furigana_full_name",
+                "com_microsoft_outlook_firstNameFurigana",
+                "com_microsoft_outlook_lastNameFurigana",
+                "com_microsoft_outlook_companyFurigana",
+                "com_microsoft_outlook_spouseFurigana",
+                "com_microsoft_outlook_childrenFurigana",
+                "com_microsoft_outlook_interests",
+                "com_microsoft_outlook_projects",
+                "com_microsoft_outlook_categories",
+                "com_microsoft_outlook_primaryCategory",
+                "com_microsoft_outlook_flagged",
+                "com_microsoft_outlook_isgroup",
+                "com_microsoft_outlook_hasStartDate",
+                "com_microsoft_outlook_startDate",
+                "com_microsoft_outlook_hasDueDate",
+                kMDItemDueDate,
+                "com_microsoft_outlook_has_reminder",
+                "com_microsoft_outlook_completed",
+                "com_microsoft_outlook_completedDate"
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses,
+                kMDItemContentModificationDate
+            );
+            name = "com.microsoft.outlook14.contact";
+        };
+        "com.microsoft.outlook14.event" =         {
+            allattrs =             (
+                "com_microsoft_outlook_has_text_content",
+                kMDItemTextContent,
+                kMDItemTitle,
+                "com_microsoft_outlook_recordID",
+                "com_microsoft_outlook_folderID",
+                "com_microsoft_outlook_accountID",
+                kMDItemCoverage,
+                kMDItemDueDate,
+                "com_microsoft_outlook_hasStartDate",
+                "com_microsoft_outlook_hasDueDate",
+                "com_microsoft_outlook_startDate",
+                "com_microsoft_outlook_endDate",
+                kMDItemWhereFroms,
+                kMDItemComment,
+                "com_microsoft_outlook_timeZone",
+                "com_microsoft_outlook_recurrence",
+                "com_microsoft_outlook_recurring",
+                "com_microsoft_outlook_allDay",
+                "com_microsoft_outlook_has_reminder",
+                "com_microsoft_outlook_freeBusy",
+                "com_microsoft_outlook_free_busy_value",
+                "com_microsoft_outlook_parentRecordID",
+                kMDItemContactKeywords,
+                kMDItemKeywords,
+                kMDItemProjects,
+                "com_microsoft_outlook_projects",
+                "com_microsoft_outlook_categories",
+                "com_microsoft_outlook_primaryCategory",
+                "com_microsoft_outlook_attendees",
+                "com_microsoft_outlook_attendee_emails"
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemDueDate,
+                kMDItemWhereFroms
+            );
+            name = "com.microsoft.outlook14.event";
+        };
+        "com.microsoft.outlook14.message" =         {
+            allattrs =             (
+                kMDItemTitle,
+                "com_microsoft_outlook_recordID",
+                kMDItemContentCreationDate,
+                "com_microsoft_outlook_messageSent",
+                "com_microsoft_outlook_messageReceived",
+                "com_microsoft_outlook_priority",
+                "com_microsoft_outlook_flag",
+                "com_microsoft_outlook_unread",
+                kMDItemContentModificationDate,
+                kMDItemCoverage,
+                kMDItemKeywords,
+                kMDItemProjects,
+                "com_microsoft_outlook_has_text_content",
+                kMDItemTextContent,
+                kMDItemAuthors,
+                kMDItemRecipients,
+                "com_microsoft_outlook_folderID",
+                "com_microsoft_outlook_junkLikelihood",
+                "com_microsoft_outlook_size",
+                "com_microsoft_outlook_newsAccountID",
+                "com_microsoft_outlook_accountID",
+                "com_microsoft_outlook_repliedTo",
+                "com_microsoft_outlook_forwarded",
+                "com_microsoft_outlook_redirected",
+                "com_microsoft_outlook_toRecipients",
+                "com_microsoft_outlook_toEmailAddresses",
+                "com_microsoft_outlook_ccRecipients",
+                "com_microsoft_outlook_ccEmailAddresses",
+                "com_microsoft_outlook_bccRecipients",
+                "com_microsoft_outlook_bccEmailAddresses",
+                "com_microsoft_outlook_attachments",
+                "com_microsoft_outlook_has_attachments",
+                "com_microsoft_outlook_projects",
+                "com_microsoft_outlook_categories",
+                "com_microsoft_outlook_primaryCategory",
+                "com_microsoft_outlook_flagged",
+                "com_microsoft_outlook_author_email_addresses",
+                "com_microsoft_outlook_recpient_email_addresses",
+                "com_microsoft_outlook_isFromMailingList",
+                "com_microsoft_outlook_hasStartDate",
+                "com_microsoft_outlook_startDate",
+                "com_microsoft_outlook_hasDueDate",
+                kMDItemDueDate,
+                "com_microsoft_outlook_has_reminder",
+                "com_microsoft_outlook_completed",
+                "com_microsoft_outlook_completedDate"
+            );
+            displayattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemAuthors,
+                kMDItemRecipients,
+                kMDItemCoverage,
+                kMDItemContentModificationDate
+            );
+            name = "com.microsoft.outlook14.message";
+        };
+        "com.microsoft.outlook14.note" =         {
+            allattrs =             (
+                kMDItemTitle,
+                "com_microsoft_outlook_recordID",
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate,
+                "com_microsoft_outlook_has_text_content",
+                kMDItemTextContent,
+                kMDItemKeywords,
+                kMDItemProjects,
+                "com_microsoft_outlook_folderID",
+                "com_microsoft_outlook_accountID",
+                "com_microsoft_outlook_projects",
+                "com_microsoft_outlook_categories",
+                "com_microsoft_outlook_primaryCategory"
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            name = "com.microsoft.outlook14.note";
+        };
+        "com.microsoft.outlook14.task" =         {
+            allattrs =             (
+                "com_microsoft_outlook_has_text_content",
+                kMDItemTextContent,
+                kMDItemTitle,
+                "com_microsoft_outlook_recordID",
+                kMDItemContentModificationDate,
+                kMDItemComment,
+                "com_microsoft_outlook_recurring",
+                "com_microsoft_outlook_recurrence",
+                "com_microsoft_outlook_recurrence_type",
+                "com_microsoft_outlook_priority",
+                "com_microsoft_outlook_folderID",
+                "com_microsoft_outlook_accountID",
+                kMDItemProjects,
+                "com_microsoft_outlook_projects",
+                "com_microsoft_outlook_categories",
+                "com_microsoft_outlook_primaryCategory",
+                "com_microsoft_outlook_hasStartDate",
+                "com_microsoft_outlook_startDate",
+                "com_microsoft_outlook_hasDueDate",
+                kMDItemDueDate,
+                "com_microsoft_outlook_has_reminder",
+                "com_microsoft_outlook_completed",
+                "com_microsoft_outlook_completedDate"
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemDueDate
+            );
+            name = "com.microsoft.outlook14.task";
+        };
+        "com.microsoft.word.doc" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemAuthors,
+                kMDItemComment
+            );
+            name = "com.microsoft.word.doc";
+        };
+        "public.audio" =         {
+            allattrs =             (
+                kMDItemAlbum,
+                kMDItemAuthors,
+                kMDItemComposer,
+                kMDItemMusicalGenre,
+                kMDItemRecordingDate,
+                kMDItemRecordingYear,
+                kMDItemTitle,
+                kMDItemComment,
+                kMDItemMediaTypes,
+                kMDItemTotalBitRate,
+                kMDItemAudioBitRate,
+                kMDItemAudioSampleRate,
+                kMDItemBitsPerSample,
+                kMDItemKeySignature,
+                kMDItemTimeSignature,
+                kMDItemAudioEncodingApplication,
+                kMDItemLyricist,
+                kMDItemAudioTrackNumber,
+                kMDItemMusicalInstrumentCategory,
+                kMDItemMusicalInstrumentName,
+                kMDItemAppleLoopDescriptors,
+                kMDItemAppleLoopsRootKey,
+                kMDItemAppleLoopsKeyFilterType,
+                kMDItemAppleLoopsLoopMode
+            );
+            displayattrs =             (
+                kMDItemAlbum,
+                kMDItemTitle,
+                kMDItemMusicalGenre,
+                kMDItemRecordingDate,
+                kMDItemAuthors,
+                kMDItemComposer,
+                kMDItemRecordingYear,
+                kMDItemComment,
+                kMDItemAudioSampleRate,
+                kMDItemBitsPerSample
+            );
+            name = "public.audio";
+            previewattrs =             (
+                kMDItemDurationSeconds,
+                kMDItemAudioSampleRate,
+                kMDItemBitsPerSample,
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemDurationSeconds,
+                kMDItemTotalBitRate,
+                kMDItemAudioBitRate,
+                kMDItemAudioEncodingApplication,
+                kMDItemAudioSampleRate,
+                kMDItemBitsPerSample,
+                kMDItemMusicalInstrumentCategory,
+                kMDItemMusicalInstrumentName,
+                kMDItemAppleLoopDescriptors,
+                kMDItemAppleLoopsRootKey,
+                kMDItemAppleLoopsKeyFilterType,
+                kMDItemAppleLoopsLoopMode
+            );
+            relatedattrs =             (
+                kMDItemAlbum,
+                kMDItemAuthors
+            );
+        };
+        "public.audiovisual-content" =         {
+            allattrs =             (
+                kMDItemAudioChannelCount,
+                kMDItemAuthors,
+                kMDItemCodecs,
+                kMDItemCopyright,
+                kMDItemDurationSeconds,
+                kMDItemEncodingApplications,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemStarRating,
+                kMDItemTitle,
+                kMDItemTotalBitRate,
+                kMDItemAudioSampleRate,
+                kMDItemBitsPerSample,
+                kMDItemInformation,
+                kMDItemDirector,
+                kMDItemProducer,
+                kMDItemGenre,
+                kMDItemPerformers,
+                kMDItemOriginalFormat,
+                kMDItemOriginalSource
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemDurationSeconds,
+                kMDItemAuthors,
+                kMDItemPerformers,
+                kMDItemDirector,
+                kMDItemProducer,
+                kMDItemGenre,
+                kMDItemCopyright,
+                kMDItemAudioChannelCount,
+                kMDItemAudioSampleRate,
+                kMDItemBitsPerSample,
+                kMDItemCodecs,
+                kMDItemEncodingApplications,
+                kMDItemOriginalFormat,
+                kMDItemOriginalSource,
+                kMDItemStarRating,
+                kMDItemInformation
+            );
+            name = "public.audiovisual-content";
+            readonlyattrs =             (
+                kMDItemAudioChannelCount,
+                kMDItemCodecs,
+                kMDItemDurationSeconds,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemTotalBitRate,
+                kMDItemAudioSampleRate,
+                kMDItemBitsPerSample
+            );
+        };
+        "public.bookmark" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses
+            );
+            name = "public.bookmark";
+        };
+        "public.calendar-event" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "public.calendar-event";
+        };
+        "public.contact" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPhoneNumbers,
+                kMDItemEmailAddresses,
+                kMDItemInstantMessageAddresses
+            );
+            name = "public.contact";
+        };
+        "public.email-message" =         {
+            displayattrs =             (
+                kMDItemContentCreationDate,
+                kMDItemAuthors,
+                kMDItemRecipients
+            );
+            name = "public.email-message";
+        };
+        "public.font" =         {
+            allattrs =             (
+                kMDItemAuthors,
+                kMDItemCopyright,
+                kMDItemFonts
+            );
+            name = "public.font";
+            previewattrs =             (
+                kMDItemLastUsedDate
+            );
+            relatedattrs =             (
+                kMDItemCopyright
+            );
+        };
+        "public.html" =         {
+            allattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            name = "public.html";
+        };
+        "public.image" =         {
+            allattrs =             (
+                kMDItemAcquisitionMake,
+                kMDItemAcquisitionModel,
+                kMDItemAlbum,
+                kMDItemAperture,
+                kMDItemCity,
+                kMDItemColorSpace,
+                kMDItemColorSpace,
+                kMDItemCountry,
+                kMDItemDescription,
+                kMDItemEXIFVersion,
+                kMDItemExposureMode,
+                kMDItemExposureProgram,
+                kMDItemExposureTimeSeconds,
+                kMDItemFNumber,
+                kMDItemFlashOnOff,
+                kMDItemFocalLength,
+                kMDItemHasAlphaChannel,
+                kMDItemHeadline,
+                kMDItemISOSpeed,
+                kMDItemInstructions,
+                kMDItemKeywords,
+                kMDItemLayerNames,
+                kMDItemMaxAperture,
+                kMDItemMeteringMode,
+                kMDItemOrientation,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemProfileName,
+                kMDItemRedEyeOnOff,
+                kMDItemResolutionHeightDPI,
+                kMDItemResolutionWidthDPI,
+                kMDItemStateOrProvince,
+                kMDItemTitle,
+                kMDItemWhiteBalance,
+                kMDItemEXIFGPSVersion,
+                kMDItemAltitude,
+                kMDItemLatitude,
+                kMDItemLongitude,
+                kMDItemNamedLocation
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemAcquisitionMake,
+                kMDItemAcquisitionModel,
+                kMDItemColorSpace,
+                kMDItemProfileName,
+                kMDItemFocalLength,
+                kMDItemLayerNames,
+                kMDItemAlbum,
+                kMDItemDescription,
+                kMDItemHasAlphaChannel,
+                kMDItemRedEyeOnOff,
+                kMDItemMeteringMode,
+                kMDItemMaxAperture,
+                kMDItemFNumber,
+                kMDItemExposureProgram,
+                kMDItemExposureTimeSeconds,
+                kMDItemHeadline,
+                kMDItemInstructions,
+                kMDItemNamedLocation,
+                kMDItemCity,
+                kMDItemStateOrProvince,
+                kMDItemCountry,
+                kMDItemLatitude,
+                kMDItemLongitude
+            );
+            name = "public.image";
+            previewattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemResolutionWidthDPI,
+                kMDItemResolutionHeightDPI
+            );
+            relatedattrs =             (
+                kMDItemAuthors,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth
+            );
+        };
+        "public.item" =         {
+            displayattrs =             (
+                kMDItemKeywords,
+                kMDItemWhereFroms,
+                kMDItemLastUsedDate
+            );
+            name = "public.item";
+            previewattrs =             (
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemPath,
+                kMDItemAttributeChangeDate,
+                kMDItemContentType,
+                kMDItemContentTypeTree,
+                kMDItemDisplayName,
+                kMDItemKind,
+                kMDItemLastUsedDate,
+                kMDItemTextContent
+            );
+            relatedattrs =             (
+                kMDItemKeywords
+            );
+        };
+        "public.movie" =         {
+            allattrs =             (
+                kMDItemAcquisitionMake,
+                kMDItemAcquisitionModel,
+                kMDItemAudioBitRate,
+                kMDItemCodecs,
+                kMDItemColorSpace,
+                kMDItemDeliveryType,
+                kMDItemLayerNames,
+                kMDItemMediaTypes,
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemStreamable,
+                kMDItemTotalBitRate,
+                kMDItemVideoBitRate,
+                kMDItemProfileName
+            );
+            displayattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemCodecs,
+                kMDItemProfileName
+            );
+            name = "public.movie";
+            previewattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemDurationSeconds,
+                kMDItemLastUsedDate
+            );
+            readonlyattrs =             (
+                kMDItemPixelHeight,
+                kMDItemPixelWidth,
+                kMDItemDurationSeconds
+            );
+            relatedattrs =             (
+                kMDItemCopyright,
+                kMDItemAuthors,
+                kMDItemTitle
+            );
+        };
+        "public.plain-text" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemEditors,
+                kMDItemKeywords,
+                kMDItemComment
+            );
+            name = "public.plain-text";
+        };
+        "public.rtf" =         {
+            allattrs =             (
+                kMDItemCopyright,
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemSubject,
+                kMDItemOrganizations,
+                kMDItemAuthors,
+                kMDItemKeywords,
+                kMDItemComment,
+                kMDItemContentCreationDate,
+                kMDItemContentModificationDate
+            );
+            exporterAvailable = 1;
+            name = "public.rtf";
+            relatedattrs =             (
+                kMDItemOrganizations,
+                kMDItemAuthors
+            );
+        };
+        "public.to-do-item" =         {
+            displayattrs =             (
+                kMDItemTitle,
+                kMDItemCoverage,
+                kMDItemWhereFroms,
+                kMDItemAuthors,
+                kMDItemContactKeywords,
+                kMDItemDueDate
+            );
+            name = "public.to-do-item";
+        };
+    };
+    version = "1.0";
+    xmlns = "http://www.apple.com/metadata";
+    "xmlns:xsi" = "http://www.w3.org/2001/XMLSchema-instance";
+    "xsi:schemaLocation" = "http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd";
+}
