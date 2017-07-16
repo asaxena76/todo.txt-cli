@@ -128,8 +128,8 @@
 
         function getToolboxElement() {
             var match = location.search.match(/toolbox=([^&]+)/);
-           // return "toolbox-categories";
-            return document.getElementById('toolbox-' + (match ? match[1] : 'categories'));
+            return document.getElementById("toolbox-simple");
+            //return document.getElementById('toolbox-' + (match ? match[1] : 'categories'));
         }
 
         function toXml() {
@@ -376,7 +376,7 @@
 <div id="collaborators"></div>
 <div id="blocklyDiv"></div>
 
-<textarea rows="4" cols="50" id="input-text-area"   onchange="taChange()">
+<textarea rows="1" cols="5000" id="input-text-area"   onchange="taChange()">
     int led = 13;void setup(){pinMode(led, OUTPUT);}void loop(){digitalWrite(led, HIGH);delay(100);digitalWrite(led, LOW); delay(100);}
 </textarea>
 
