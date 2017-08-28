@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+    <changeSet author="asaxena" id="sequence_generator_table">
+        <createTable tableName="sequence_generator">
+            <column name="sequence_name" type="VARCHAR(255)"/>
+            <column name="sequence_value" type="INT"/>
+        </createTable>
+
+
+    </changeSet>
+
+    <changeSet author="asaxena" id="plaid_item_table">
+
+        <validCheckSum>7:2af57271bda1a941714677290bc670e8</validCheckSum>
+        <createTable tableName="plaid_item">
+
+            <column name="item_id" type="VARCHAR(255)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+
+            <column name="institution_id" type="VARCHAR(255)"/>
+
+            <column name="access_token" type="VARCHAR(255)"/>
+
+        </createTable>
+
+
+
+    </changeSet>
+
+    <changeSet id="plaid_item_friendly_name" author="asaxena">
+        <addColumn tableName="plaid_item">
+            <column name="friendly_name" type="VARCHAR(255)"/>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="plaid_item_data" author="asaxena" runOnChange="true">
+        <loadUpdateData tableName="plaid_item" file="plaid_item.csv" relativeToChangelogFile="true" primaryKey="item_id"/>
+    </changeSet>
+
+
+    <changeSet author="asaxena" id="plaid_account_table">
+        <createTable tableName="plaid_account">
+            <column name="account_id" type="VARCHAR(255)">
+                <constraints primaryKey="true" nullable="false"/>
+                    </column>
+            <column name="plaid_item_item_id" type="VARCHAR(255)">
+                <constraints  foreignKeyName="fk_plaid_item_id" references="plaid_item (item_id)"/>
+                    </column>
+            <column name="mask" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="official_name" type="VARCHAR(255)"/>
+            <column name="subtype" type="VARCHAR(255)"/>
+            <column name="type" type="VARCHAR(255)"/>
+        </createTable>
+
+    </changeSet>
+
+    <changeSet author="asaxena" id="plaid_balance_table">
+        <createTable tableName="plaid_balance">
+
+            <column name="id" type="BIGINT">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="date_created" type="TIMESTAMP"/>
+            <column name="plaid_account_account_id" type="VARCHAR(255)">
+                <constraints foreignKeyName="fk_plaid_balance_plaid_account_account_id" references="plaid_account (account_id)"/>
+                    </column>
+            <column name="available" type="BIGINT"/>
+            <column name="current" type="BIGINT"/>
+            <column name="plimit" type="BIGINT"/>
+
+        </createTable>
+    </changeSet>
+
+
+    <changeSet author="asaxena" id="plaid_category_table">
+        <createTable tableName="plaid_category">
+
+            <column name="category_id" type="VARCHAR(255)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="pgroup" type="VARCHAR(255)"/>
+            <column name="hierarchy" type="VARCHAR(255)"/>
+
+        </createTable>
+    </changeSet>
+
+    <changeSet author="asaxena" id="plaid_location_table">
+        <createTable tableName="plaid_location">
+
+            <column name="id" type="BIGINT">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="address" type="VARCHAR(255)"/>
+            <column name="city" type="VARCHAR(255)"/>
+            <column name="lat" type="VARCHAR(255)"/>
+            <column name="lon" type="VARCHAR(255)"/>
+            <column name="state" type="VARCHAR(255)"/>
+            <column name="store_number" type="VARCHAR(255)"/>
+            <column name="zip" type="VARCHAR(255)"/>
+
+        </createTable>
+    </changeSet>
+
+    <changeSet id="plaid_transaction_table" author="asaxena">
+
+        <createTable tableName="plaid_transaction">
+            <column name="transaction_id" type="VARCHAR(255)">
+                <constraints primaryKey="true" nullable="false"/>
+                    </column>
+
+
+            <column name="plaid_account_account_id" type="VARCHAR(255)">
+                <constraints foreignKeyName="fk_plaid_transaction_plaid_account_id" references="plaid_account (account_id)"/>
+            </column>
+
+            <column name="account_owner" type="VARCHAR(255)"/>
+
+            <column name="amount" type="BIGINT"/>
+
+            <column name="plaid_category_category_id" type="VARCHAR(255)"/>
+
+            <column name="plaid_location_id" type="BIGINT"/>
+
+            <column name="txdate" type="TIMESTAMP"/>
+
+            <column name="txname" type="VARCHAR(255)"/>
+
+            <column name="by_order_of" type="VARCHAR(255)"/>
+            <column name="payee" type="VARCHAR(255)"/>
+            <column name="payer" type="VARCHAR(255)"/>
+            <column name="payment_method" type="VARCHAR(255)"/>
+            <column name="payment_processor" type="VARCHAR(255)"/>
+            <column name="ppd_id" type="VARCHAR(255)"/>
+            <column name="reason" type="VARCHAR(255)"/>
+            <column name="reference_number" type="VARCHAR(255)"/>
+            <column name="pending_transaction_id" type="VARCHAR(255)"/>
+
+            <column name="transaction_type" type="VARCHAR(255)"/>
+
+            <column name="pending" type="BOOLEAN"/>
+
+
+
+        </createTable>
+
+
+    </changeSet>
+
+    <changeSet id="accounts_table" author="asaxena">
+        <createTable tableName="account">
+            <column name="id" type="BIGINT">
+                <constraints primaryKey="true" nullable="false"/>
+                    </column>
+            <column name="plaid_account_id" type="VARCHAR(255)" >
+                <constraints unique="true"/>
+            </column>
+            <column name="friendly_name" type="VARCHAR(255)"/>
+
+        </createTable>
+        <loadUpdateData tableName="account" file="account.csv" relativeToChangelogFile="true" primaryKey="id"/>
+    </changeSet>
+</databaseChangeLog>

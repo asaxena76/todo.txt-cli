@@ -1,0 +1,64 @@
+package in.vagabond.lms.model.financial;
+dialect "mvel"
+
+
+
+
+rule "Google Play"
+when
+   $tx : Transaction( name == "Google Play" )
+then
+   $tx.category="Entertainment/Digital";
+   $tx.action = "None";
+end
+
+rule "Annual Memberships"
+when
+   $tx : Transaction( name == "ANNUAL MEMBERSHIP FEE" )
+then
+   $tx.category="Memberships/CreditCards";
+   $tx.action = "None";
+end
+
+rule "Medical Insurance"
+when
+   $tx : Transaction( name == "HCC MEDICAL INSURANCE SERVICES" )
+then
+   $tx.category="Insurance/Medical";
+   $tx.action = "None";
+end
+
+rule "TechShop"
+when
+   $tx : Transaction( name == "TECH SHOP" )
+then
+   $tx.category="Memberships/Business";
+   $tx.action = "None";
+end
+
+rule "Payment Received"
+when
+   $tx : Transaction( name == "AUTOPAY PAYMENT RECEIVED" )
+then
+   $tx.category="Payment";
+   $tx.action = "None";
+end
+
+
+// This should probably be distributed between business and Home based on use
+rule "Google Drive"
+when
+   $tx : Transaction( name == "Google" )
+then
+   $tx.category="Business/WebServices";
+   $tx.action = "None";
+end
+
+// This is most likely not shared use between Home and Business
+rule "Amazon"
+when
+   $tx : Transaction( name == "Amazon" )
+then
+   $tx.category="Business/WebServices";
+   $tx.action = "None";
+end
